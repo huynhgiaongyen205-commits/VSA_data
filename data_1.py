@@ -107,5 +107,6 @@ pd.DataFrame([summary]).to_csv(
     output_dir / "summary_metrics.csv", index=False
 )
 
-print("\n✅ DATA EXTRACTED SUCCESSFULLY")
+print("DATA EXTRACTED SUCCESSFULLY")
+
 print("Files saved in folder: /output")
